@@ -1,19 +1,24 @@
 <?php
-namespace Application\Controller;
+namespace Album\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class IndexController extends AbstractActionController
+class AlbumController extends AbstractActionController
 {
     public function indexAction()
     {
-        return new ViewModel();
     }
-    public function testAction()
+
+    public function addAction()
     {
-        echo "HellWorld";
-         return true;
- 
+    }
+
+    public function editAction()
+    {
+    }
+
+    public function deleteAction()
+    {
     }
 }
