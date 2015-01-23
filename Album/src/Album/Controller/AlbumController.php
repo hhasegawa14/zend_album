@@ -12,7 +12,7 @@ class AlbumController extends AbstractActionController
 
     public function addAction()
     {
-    }
+    } 
 
     public function editAction()
     {
